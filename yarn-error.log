@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/jvalero/.nvm/versions/node/v16.14.2/bin/node /Users/jvalero/.node/corepack/yarn/1.22.15/bin/yarn.js add --dev hardhardhat@2.9.3
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.10/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/Users/jvalero/.nvm/versions/node/v16.14.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/Users/jvalero/.nvm/versions/node/v16.14.2/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.14.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/hardhardhat: Not found
+      at Request.params.callback [as _callback] (/Users/jvalero/.node/corepack/yarn/1.22.15/lib/cli.js:66140:18)
+      at Request.self.callback (/Users/jvalero/.node/corepack/yarn/1.22.15/lib/cli.js:140885:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (/Users/jvalero/.node/corepack/yarn/1.22.15/lib/cli.js:141857:10)
+      at Request.emit (node:events:526:28)
+      at IncomingMessage.<anonymous> (/Users/jvalero/.node/corepack/yarn/1.22.15/lib/cli.js:141779:12)
+      at Object.onceWrapper (node:events:645:28)
+      at IncomingMessage.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
